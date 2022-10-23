@@ -9,15 +9,17 @@ function createWindow () {
       nodeIntegration: true,
       contextIsolation: false
     },
-    width: 800,
-    height: 600
+    // width: 1600,
+    // height: 1000,
+    fullscreen: true,
+    autoHideMenuBar: true,
   })
-
-  // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, '/public/html/index.html'))
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools()
+
+  // and load the index.html of the app.
+  mainWindow.loadFile(path.join(__dirname, '/public/html/index.html'))
 }
 
 // This method will be called when Electron has finished

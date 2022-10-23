@@ -1,0 +1,27 @@
+html {
+    cursor: none;
+}
+
+body {
+    background: #083D77;
+}
+
+.active {
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#mainIconCont {
+    margin-top: 18%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.mainIcon {
+    margin: 1% 2%;
+    padding: 1% 3%;
+    position: relative;
+    float: left;
+    width: 23%;
+}
+
