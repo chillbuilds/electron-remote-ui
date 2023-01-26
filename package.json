@@ -17,7 +17,7 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^21.1.1"
+    "electron": "^22.1.0"
   },
   "dependencies": {
     "vlc-player": "^2.0.0"
